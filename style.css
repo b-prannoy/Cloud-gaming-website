@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    background-color: rgba(47,60,47,255);
+    width: 1em;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(118, 189, 118, 0.571);
+    border-radius: 100vw;
+}
+
+@font-face {
+    font-family: customfont;
+    src: url('assets/BAHNSCHRIFT\ 1.TTF');
+}
+
+.navbarlogo {
+    position: fixed;
+    top: 6px;
+    left: 75px;
+}
+
+#gamestorm-image {
+    width: 80px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+#freetrial-button {
+    text-decoration: none; 
+    list-style: none; 
+    position: absolute; 
+    left: 215px; 
+    top: 440px; 
+    font-size: x-large;
+    color: rgb(12, 46, 12); 
+    background-color: #FBFCF6; 
+    padding: 20px; 
+    border-radius: 30px;
+}
+
+#footer-content {
+    margin-top: 485px; margin-right: 900px; color: #FBFCF6;
+}
+
+#freetrial-button :hover {
+    color: #000000f0;
+    transition: 0.5s;
+}
+
+#forzahorizon {
+    width: 840px; 
+    border: none; 
+    opacity: 80%; 
+    border-radius: 30px
+}
+
+#home-subheading {
+    position: absolute; 
+    top: 335px; 
+    left: 85px; 
+    font-size: xx-large;
+    color: #FBFCF6; 
+    opacity: 75%;
+}
+
+h1 {
+    position: fixed;
+    top: 37px;
+    left: 160px;
+    color: #FBFCF6;
+    font-weight: normal;
+    font-size: larger;
+}
+
+.navbar {
+    width: 100%;    
+}
+
+body {
+    background-color: rgb(7,31,13);
+    background: linear-gradient(90deg, rgba(7,31,13,1) 0%, rgba(48,61,48,1) 100%);
+    font-family: 'customfont';
+    min-height: 100vh;
+}
+
+.navlist {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    right: 3vh;
+    height: 13vh;
+    width: 100%;
+}
+
+.navlinks {
+    text-decoration: none;
+    color: #FBFCF6;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    padding: 0 23px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.navlinks :hover {
+    transition: 0.5s;
+    background-color: rgba(75, 109, 75, 0.297);
+    border-radius: 20px;
+}
+
+#gamecontroller-image {
+    position: absolute; 
+    top: 930px; 
+    left: 930px;
+}
+
+#fifa-video {
+    width: 700px; 
+    border: none; 
+    opacity: 80%; 
+    border-radius: 30px; 
+    position: absolute; 
+    left: 760px;
+}
+
+#gamepage-footer {
+    margin-top: 545px; 
+    margin-left: 20px; 
+    color: #FBFCF6;
+}
+
+#gamepage-heading-1 {
+    color: #FBFCF6; 
+    position: absolute; 
+    top: 1600px; 
+    left: 90px; 
+    font-size: 40px; 
+    text-transform: uppercase;
+}
+
+#shopnow-button {
+    color: #FBFCF6;
+    position: absolute; 
+    top: 1690px; 
+    left: 135px; 
+    font-size: 40px; 
+    text-transform: uppercase; 
+    opacity: 70%;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.herovideo {
+    position: absolute;
+    top: 130px;
+    border: none;
+    right: 58px;
+}
+
+h2 {
+    color: #FBFCF6;
+    position: absolute; 
+    left: 85px; 
+    top: 170px; 
+    font-size: 50px
+}
+
+h4 {
+    color: #FBFCF6;
+    position: absolute;
+    top: 800px;
+    font-size: x-large;
+    left: 640px;
+    border: 2px solid #FBFCF6;
+    padding: 15px;
+}
+
+h5 {
+    color: #FBFCF6;
+    font-size: 65px;
+    position: absolute;
+    top: 2215px;
+    left: 100px;
+    border: #FBFCF6 3px solid;
+    padding: 70px;
+}
+
+#contactimage {
+    width: 45%;
+    position: absolute;
+    right: 100px;
+    top: 2210px;
+}
+
+#buynow {
+    position: absolute; 
+    top: 1750px; 
+    left: 240px; 
+    list-style: none;
+    text-decoration: none;
+    color: #FBFCF6;
+    border: 2px #FBFCF6 solid;
+    font-weight: bold;
+    margin: 60px;
+    padding: 25px;
+}
+
+#buynow:hover {
+    color: rgb(16, 39, 16);
+    background-color: aliceblue;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.aboutuscontent {
+    display: block;
+    width: 50%;
+    color: #FBFCF6;
+    position: absolute;
+    top: 930px;
+    left: 90px;
+}
+
+.optimized {
+    position: absolute;
+    top: 892px;
+    left: 630px;
+}
+
+.community {
+    position: absolute;
+    top: 892px;
+    left: 1120px;
+}
+
+#phone-image {
+    position: absolute; 
+    top: 2520px; 
+    left: 150px;
+}
+
+#contact-sales-text {
+    position: absolute; 
+    top: 2480px; 
+    left: 150px; 
+    color: #FBFCF6; 
+    font-size: large
+}
+
+#sales-phonenumber {
+    position: absolute; 
+    top: 2532px; 
+    left: 210px; 
+    color: #FBFCF6; 
+    font-size: large;
+}
+
+#gamesupport-text {
+    position: absolute; 
+    top: 2582px; 
+    left: 150px; 
+    color: #FBFCF6; 
+    font-size: large;
+}
+
+#gamesupport-number {
+    position: absolute; 
+    top: 2633px; 
+    left: 210px; 
+    color: #FBFCF6; 
+    font-size: large;
+}
+
+#gamesupport-image {
+    position: absolute; 
+    top: 2620px; 
+    left: 150px;
+}
+
+.dropdown-links {
+    padding: 5px;
+} 
+
+#dropdown-menu {
+    background-color: rgb(19, 57, 19);
+    position: absolute;
+    left: 114vh;
+    top: 10vh;
+    z-index: 1;
+    display: none;
+    animation-name: drop;
+    animation-duration: 0.7s;
+}
+
+.drop-link {
+    text-decoration: none;
+    color: #FBFCF6;
+    list-style: none;
+}
+
+@keyframes drop {
+    from {
+        top: 4vh;
+        opacity: 0;
+    }
+    to {
+        top: 10vh;
+        opacity: 1;
+    }
+}

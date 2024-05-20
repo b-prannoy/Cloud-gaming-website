@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/logo.png" />
+    <link rel="stylesheet" href="loginstyle.css">
+    <link rel="stylesheet" href="transition.css">
+
+</head>
+<body>
+    <div class="transition transition3 is-active"></div>
+    <div class="loginform">
+        <form class="form" action="login.html" onsubmit="return validateForm()">
+            <label id="login-label">LOGIN</label><br><br><br>
+            <label id="username-label" for="username-input">USERNAME</label><br><br>
+            <input id="username-input" type="text" name="username"><br><br>
+            <p id="username-error-text"></p><br>
+            <label id="password-label" for="password-input">PASSWORD</label><br><br>
+            <input id="password-input" type="password" name="password"><br><br>
+            <p id="password-error-text"></p><br>
+            <input id="submitbutton" type="submit" value="LOGIN">
+        </form>
+    </div>
+    <div class="signup">
+        <aside>
+            <h1> SIGNUP </h1> <br><br><br>
+            <img src="./assets/google.png" alt="image" width="50"> 
+            <p id="google-link"><a href="https://accounts.google.com">Google Account</a></p>
+        </aside> <br><br>
+        <aside>
+            <img src="./assets/rediff.png" alt="rediff" width="58">
+            <p id="rediff-link"><a href="https://mail.rediff.com/">Rediff Account</a></p>
+        </aside>
+        <aside> <br><br>
+            <img src="./assets/outlook.png" alt="outlook" width="55">
+            <p id="outlook-link"><a href="https://login.microsoftonline.com">Outlook Account</a></p>
+        </aside>
+        <a class="signup-link" href="signup.html">Don't have an account ?</a>
+    </div>
+    <a class="home" href="index.html">HOME</a>
+    <script src="transition.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

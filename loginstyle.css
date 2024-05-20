@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: customfont;
+    src: url('assets/BAHNSCHRIFT\ 1.TTF');
+}
+
+body {
+    background-color: rgb(7, 31, 13);
+    background: linear-gradient(90deg, rgba(7, 31, 13, 1) 0%, rgba(48, 61, 48, 1) 100%);
+    font-family: 'customfont';
+    min-height: 100vh;
+}
+
+.form {
+    position: absolute;
+    top: 77px;
+    left: 860px;
+    border: 2px aliceblue groove;
+    padding: 120px;
+}
+
+h1 {
+    position: absolute;
+    top: 10vh;
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+.signup {
+    position: absolute;
+    left: 300px;
+    top: 77px;
+    display: grid;
+    border: 2px aliceblue solid;
+    width: 20%;
+    padding: 95px;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+
+.home {
+    position: absolute;
+    top: 37px;
+    left: 70px;
+    border: 2px solid aliceblue;
+    width: 40px;
+    padding: 10px;
+}
+
+.home:hover {
+    color: rgb(16, 39, 16);
+    background-color: aliceblue;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+#submitbutton {
+    position: absolute;
+    left: 195px;
+    border: 2px solid aliceblue;
+    background: none;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 13px;
+}
+
+#submitbutton:hover {
+    color: rgb(16, 39, 16);
+    background-color: aliceblue;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.signup-link {
+    position: absolute;
+    top: 63.5vh;
+    left: 6rem;
+}
+
+#google-link,
+#rediff-link,
+#outlook-link {
+    color: #fbfcf6;
+    position: absolute;
+    left: 152px;
+}
+
+#google-link {
+    top: 22vh;
+}
+
+#rediff-link {
+    top: 37vh;
+}
+
+#outlook-link {
+    top: 51vh;
+}
+
+#login-label {
+    color: #fbfcf6;
+    font-size: 35px;
+    position: absolute;
+    left: 175px;
+    top: 85px;
+    font-weight: bold;
+}
+
+#username-label,
+#password-label {
+    color: #fbfcf6;
+    position: absolute;
+    left: 120px;
+}
+
+#username-input,
+#password-input {
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    width: 230px;
+}

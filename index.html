@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamestorm</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/logo.png" />
+    <link rel="stylesheet" href="transition.css" />
+    <link rel="stylesheet" href="darklight.css" />
+</head>
+
+<body>
+    <div class="transition transition2 is-active"></div>
+    <header>
+        <nav class="navbar">
+            <ul class="navlist">
+                <li>
+                    <div class="navbarlogo">
+                        <img id="gamestorm-image" src="./assets/iconimage.png" alt="image">
+                        <h1>Gamestorm</h1>
+                    </div>
+                </li>
+                <li class="navlinks hidemobile"><a class=" active navlinks" href="#home">Home</a></li>
+                <li class="navlinks cursor hidemobile" ><a class="navlinks">Controllers <a class="drop-link" id="drop-button" href="#">+</a></a></li>
+                <li class="navlinks hidemobile"><a class="navlinks" href="#about">About</a></li>
+                <li class="navlinks hidemobile"><a class="navlinks" href="#games">Games</a></li>
+                <li class="navlinks hidemobile"><a class="navlinks" href="#contact">Contact</a></li>
+                <li class="navlinks hidemobile"><a class="navlinks" href="login.html">Login</a></li>
+    </header>
+        <ul id="dropdown-menu">
+            <li class="dropdown-links"><a href="#" class="navlinks dropdown-links">Play Station</a></li>
+            <li class="dropdown-links"><a href="#" class="navlinks dropdown-links">X-Box</a></li>
+            <li class="dropdown-links"><a href="#" class="navlinks dropdown-links">Sony</a></li>
+            <li class="dropdown-links"><a href="#" class="navlinks dropdown-links">Alienware</a></li>
+        </ul>
+    </div>
+
+    <main class="main">
+
+        <section class="section" id="home">
+            <div class="herovideo">
+                <video id="forzahorizon" src="./assets/forza.mp4"
+                    muted autoplay loop></video>
+            </div>
+            <div class="herotext">
+                <h2> EXPERIENCE GAMING <br>WITHOUT
+                    ANY LIMITS </h2>
+                <p id="home-subheading">
+                    ANYTIME ANYWHERE ANYDEVICE</p>
+            </div>
+            <div class="startfreetrial cursor">
+                <a id="freetrial-button" href="startfreetrial.html"><b>Start Free Trial</b></a>
+            </div>
+            <footer id="footer-content">
+                Copyright © 2024 Gamestorm. All Rights Reserved.
+            </footer>
+        </section>
+
+        <section class="section" id="about">
+            <h4>ABOUT GAMESTORM</h4>
+            <div class="aboutuscontent">
+                <p>At Gamestorm, we offer premium gaming experiences powered by our advanced game engine and fueled by an active gaming community. We are committed to delivering unparalleled entertainment, immersing you in our carefully curated selection of top-tier games where cutting-edge graphics, immersive soundscapes, and captivating gameplay converge to transport you to extraordinary worlds. Whether you're a seasoned gamer craving the ultimate challenge or a casual player seeking an unforgettable journey, our meticulously designed collection offers something for everyone. <br> <br>
+                Experience the prowess of our advanced game engine, meticulously crafted to elevate your gaming escapades to new heights. With cutting-edge technology and streamlined performance, our engine empowers developers to unleash their creativity and manifest their visions with unparalleled efficiency. From breathtaking visuals to seamless gameplay, our optimized game engine pushes the boundaries of possibility, delivering immersive and unforgettable gaming experiences across all platforms. <br> <br>
+                Additionally, our dedication to community engagement lies at the core of our mission. We believe gaming is more than mere entertainment—it's about forging connections and crafting unforgettable experiences together. From vibrant forums and lively social media channels to thrilling live events and player meetups, we strive to foster a platform where gamers of all backgrounds can converge to share their passion, exchange ideas, and build lasting friendships. Join us as we redefine gaming excellence and embark on an unparalleled journey of excitement and discovery.
+                </p>
+            </div>
+
+            <img id="gamecontroller-image" width="500" src="./assets/gamecontroller.png" alt="image">
+
+        </section>
+
+        <section class="section" id="games">
+            <video id="fifa-video" src="./assets/fifa.mp4" muted autoplay loop></video>
+
+            <footer id="gamepage-footer">
+                Copyright © 2024 Gamestorm. All Rights Reserved.
+            </footer>
+
+            <p id="gamepage-heading-1">Premium Gaming Experiences </p> <br>
+            <p id="shopnow-button">SHOP AT GAMESTORM NOW</p> <br>
+            <a href="https://www.xbox.com/en-IN/games/browse" id="buynow">SHOP NOW</a>
+
+        </section>
+
+        <section class="section" id="contact">
+            <img id="contactimage" src="./assets/contact.png" alt="contact">
+            <div class="contactinfo">
+                <h5>CONTACT US</h5>
+                <img id="phone-image" src="./assets/phone.png" alt="phone" width="40">
+                <p id="contact-sales-text"> Contact Our Sales Team At</p>
+
+                <p id="sales-phonenumber">812-034-572</p>
+        
+                <p id="gamesupport-text"> Contact Our Game Support Team At</p>
+
+                <p id="gamesupport-number">902-674-012</p>
+                <img id="gamesupport-image" src="./assets/phone.png" alt="phone" width="40">
+            </div>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+    <script src="transition.js"></script>
+    <script src="darklight.js"></script>
+</body>
+</html>

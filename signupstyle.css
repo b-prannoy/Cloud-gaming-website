@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(7, 31, 13);
+    background: linear-gradient(90deg, rgba(7, 31, 13, 1) 0%, rgba(48, 61, 48, 1) 100%);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.signup-form {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    max-width: 80%;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-control input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form-control input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#goback {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 10vh;
+    left: 10vh;
+    border: 2px solid #fff;
+    padding: 10px;
+}
+
+#goback:hover {
+    background-color: #fff;
+    color: #0d3c10;
+    transition: 0.7s;
+}
